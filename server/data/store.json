@@ -1,0 +1,99 @@
+{
+  "siteInfo": {
+    "name": "As Oy Satamankulma",
+    "customer": "Satamakiinteistöt Oy",
+    "contractNumber": "SU-2026-014",
+    "address": "Telakkakatu 8, 00150 Helsinki",
+    "owner": "Sari Lehto",
+    "startDate": "2026-01-15",
+    "estimatedCompletionDate": "2026-09-30",
+    "status": "käynnissä"
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Keskuksen kaapeloinnin tarkistus",
+      "description": "Varmista nousukaapeleiden merkinnät",
+      "owner": "Mikko Niemi",
+      "dueDate": "2026-03-10",
+      "priority": "korkea",
+      "status": "avoin"
+    },
+    {
+      "id": "t2",
+      "title": "Kerros 3 pistorasioiden asennus",
+      "description": "Asenna suunnitelman mukaiset pistorasiat",
+      "owner": "Laura Kivi",
+      "dueDate": "2026-03-15",
+      "priority": "normaali",
+      "status": "työn alla"
+    },
+    {
+      "id": "t3",
+      "title": "Paloilmoitinjärjestelmän testaus",
+      "description": "Suorita käyttöönottotestaus",
+      "owner": "Ville Aalto",
+      "dueDate": "2026-02-28",
+      "priority": "korkea",
+      "status": "avoin"
+    }
+  ],
+  "procurements": [
+    {
+      "id": "p1",
+      "item": "Kaapelihyllyt",
+      "supplier": "Sähkövarasto Oy",
+      "ordered": true,
+      "deliveryDate": "2026-03-08",
+      "status": "tilattu",
+      "critical": false,
+      "note": "Toimitus iltapäivällä"
+    },
+    {
+      "id": "p2",
+      "item": "Pääkeskuksen varokkeet",
+      "supplier": "Teknosupply",
+      "ordered": false,
+      "deliveryDate": "2026-03-05",
+      "status": "odottaa",
+      "critical": true,
+      "note": "Kriittinen ennen käyttöönottoa"
+    }
+  ],
+  "changeWorks": [
+    {
+      "id": "c1",
+      "title": "Lisävalaistus autohalliin",
+      "description": "8 kpl LED-valaisimia",
+      "estimatedValue": 3200,
+      "approvalStatus": "odottaa",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "c2",
+      "title": "Sähköautolatauspisteet",
+      "description": "2 kpl Type 2 latauspistettä",
+      "estimatedValue": 6400,
+      "approvalStatus": "hyväksytty",
+      "date": "2026-02-20"
+    }
+  ],
+  "risks": [
+    {
+      "id": "r1",
+      "risk": "Keskustoimitus viivästyy",
+      "impact": "Aikataulu venyy 1 viikko",
+      "action": "Pidä vaihtoehtoinen toimittaja valmiina",
+      "owner": "Sari Lehto",
+      "status": "avoin"
+    },
+    {
+      "id": "r2",
+      "risk": "Sääsuojaus puutteellinen",
+      "impact": "Asennukset voivat keskeytyä",
+      "action": "Tilaa lisäsuojaus työmaalle",
+      "owner": "Työnjohto",
+      "status": "seurannassa"
+    }
+  ]
+}
